@@ -1,0 +1,19 @@
+.done {
+  color: red;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+td{
+    padding: 5px;
+}
+
+.content{
+    margin-top: 15px;
+}
+
+button{
+    margin: 7px;
+    padding: 3px;
+}

@@ -9,9 +9,9 @@
 @section('content')
 
 <ul>
-    <li>BDD set </li>
-    <li>import data </li>
-    <li>list pokemon</li>
+    <li class="done">BDD set </li>
+    <li class="done">import data </li>
+    <li >list pokemon</li>
     <li>creat / edit</li>
     <li>delete </li>
 </ul>

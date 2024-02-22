@@ -28,4 +28,19 @@ Route::get('/', [WelcomeController::class, 'index'])
 Route::get('/Pokemons', [PokemonController::class, 'index'])
 	->name('listPokemon');
 
+Route::get('/editPokemon', [PokemonController::class, 'edit'])
+	->name('editPokemon');
+
+Route::post('/Pokemon/{id}', [PokemonController::class, 'update'])
+	->name('updatePokemon');
+
+Route::get('/Pokemon', [PokemonController::class, 'create'])
+	->name('createPokemon');
+
+Route::post('/storePokemon', [PokemonController::class, 'store'])
+	->name('storePokemon');
+
+Route::post('/deletePokemon/{id}', [PokemonController::class, 'destroy'])
+	->name('deletePokemon');
+
 
